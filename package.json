@@ -1,0 +1,28 @@
+{
+  "name": "khmer-unicode-converter",
+  "version": "1.0.0",
+  "description": "Legacy Script-Khmer Unicode Converter",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chamnap/khmer_unicode_converter.git"
+  },
+  "engines": {
+    "node": ">=4.2.2"
+  },
+  "bin": {
+    "khmer-unicode-converter": "./app.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Chamnap Chhorn <chamnapchhorn@gmail.com> (http://github.com/chamnap)",
+  "license": "ISC"
+}
