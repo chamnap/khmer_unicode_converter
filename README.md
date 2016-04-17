@@ -2,6 +2,8 @@
 
 An npm module to convert Limon/ABC font into Khmer Unicode. You can use it stand alone with the command `khmer-unicode-converter`.
 
+    $ khmer-unicode-converter GkSrbBa©Úl -f limon
+
 This module has tests with Mocha. Run `npm test` and make sure you have a solid connection.
 
 ```

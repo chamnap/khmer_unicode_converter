@@ -13,6 +13,7 @@
   "bin": {
     "khmer-unicode-converter": "./app.js"
   },
+  "preferGlobal": true,
   "dependencies": {
     "commander": "^2.9.0"
   },
