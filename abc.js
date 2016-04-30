@@ -1,4 +1,5 @@
 function abc(a) {
+  if (!a) { return null; }
 
   //numbers
   a = a.replace(/1/gm, '១');

@@ -9,4 +9,10 @@ describe('Limon Converter', function() {
 
     expect(result).to.equal('អក្សរបពា្ចូល (លីម៉ូន)');
   });
+
+  it('returns nothing', function() {
+    var result = converter.abc(null);
+
+    expect(result).to.equal(null);
+  });
 });
